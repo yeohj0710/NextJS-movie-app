@@ -18,4 +18,5 @@
   - HTML이므로, JavaScript가 없어도 Render 된다.
 - ② 그 다음 프레임워크가 페이지에 React application을 추가한다.
   - 이 기능은 각 Component 파일 맨 위에 "use client";를 작성해서 선택적으로 추가 가능 (이 Component는 client에서 interactive 해야 함을 의미)
+  - 기존 HTML 페이지는 그대로 있는 상태로, 이벤트 리스너 등이 추가된다.
   - 이를 (사용자가 최초 HTML을 본 후) 'Hydration이 일어난다'고 한다.
