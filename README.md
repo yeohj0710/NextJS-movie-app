@@ -4,12 +4,6 @@
 
 <br>
 
-### Client side rendering
-
-#### 사용자 브라우저에서 모든 UI를 구현
-
-- UI를 보려면 JavaScript가 반드시 필요 (모든 파일을 다운로드할 때까지 기다려야 함)
-
 ### Server side rendering
 
 #### NextJS가 application을 render하는 방법
@@ -20,3 +14,10 @@
   - 이 기능은 각 Component 파일 맨 위에 "use client";를 작성해서 선택적으로 추가 가능 (이 Component는 client에서 interactive 해야 함을 의미)
   - 기존 HTML 페이지는 그대로 있는 상태로, 이벤트 리스너 등이 추가된다.
   - 이를 (사용자가 최초 HTML을 본 후) 'Hydration이 일어난다'고 한다.
+
+#### 컴포넌트별로 로딩이 완료되는 대로 렌더링하기
+
+- 리액트의 Suspense 컴포넌트를 이용하여 컴포넌트별로 로딩이 완료되는 대로 렌더링을 할 수 있다.
+- 위 프로젝트에서 먼저 로딩된 영화 포스터와 요약은 먼저 렌더링이 되고, 유튜브 트레일러들은 로딩이 완료되는 순서대로 나중에 렌더링이 일어나는 것을 확인할 수 있다.
+
+<br>
