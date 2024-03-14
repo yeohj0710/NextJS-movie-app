@@ -1,6 +1,16 @@
 ## NextJS Movie App
 
-- This is a project for practicing NextJS.
+- This is a movie application built using Next.js.
+
+<br>
+  
+![README-gif-1](https://github.com/yeohj0710/NextJS-movie-app/assets/93759367/45c26461-0d38-4473-b74e-c25964965fc0)
+
+<br>
+
+![README-img-1](https://github.com/yeohj0710/NextJS-movie-app/assets/93759367/03e5ec8e-7fed-4625-b9a4-ed49dd333037)
+
+![README-img-2](https://github.com/yeohj0710/NextJS-movie-app/assets/93759367/94d57612-bb1b-4b96-b7b5-f24d30b35aeb)
 
 <br>
 
@@ -19,3 +29,5 @@
 - 위 프로젝트에서 먼저 로딩된 영화 포스터와 요약은 먼저 렌더링이 되고, 유튜브 트레일러들은 로딩이 완료되는 순서대로 나중에 렌더링이 일어나는 것을 확인할 수 있다.
 
 <br>
+<br>
+
